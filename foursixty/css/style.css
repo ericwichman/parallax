@@ -1,0 +1,636 @@
+body{
+	background:#fff;
+	margin:0;
+	padding:0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	text-align: center;
+	color:#FFF;
+}
+
+.container{
+	margin: 0 auto;
+}
+
+.nav{
+	margin:0;
+	padding:0;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:1000;
+	width:100%;
+	vertical-align: center;
+	background: url(../images/bg-nav.png) repeat-x top;
+	height: 93px;
+}
+	.nav .wrapper{
+		width: 940px;
+		margin: 0 auto;
+		position: relative;
+		margin-top: 26px;
+		
+	}
+	.nav h1{
+		display: block;
+		background: url(../images/logo.gif) no-repeat;
+		width: 180px;
+		height: 37px;
+		text-indent: -9999px;
+	}
+	.nav li{
+		display:inline-block;
+		list-style: none;
+		padding-right: 5px;
+	}
+
+a {
+	text-decoration: none;
+	color: #451ea1;
+}
+
+.footer{
+	background: url(../images/bg_footer.png) no-repeat;	
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	margin: 0 auto;
+	height: 372px;
+	display: block;
+}
+
+.footer img{
+	width: 100%;
+}
+
+#signin{
+	margin:0;
+	position: absolute;
+	top:0px;
+	right: 0;
+
+}
+
+/* Buttons */
+
+button.css3button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #ffffff !important;
+	padding: 10px 30px;
+	background: -moz-linear-gradient(
+		top,
+		#ffb516 0%,
+		#da800b);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#ffb516),
+		to(#da800b));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 0px solid #000000;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0),
+		inset 0px 0px 1px rgba(255,255,255,0.6);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0),
+		inset 0px 0px 1px rgba(255,255,255,0.6);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0),
+		inset 0px 0px 1px rgba(255,255,255,0.6);
+	text-shadow:
+		0px -1px 0px rgba(133,133,133,1),
+		0px 0px 0px rgba(255,255,255,0);
+}
+
+button.css3button:hover {
+	background: -moz-linear-gradient(
+		top,
+		#da7f0b 0%,
+		#da800b);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#da7f0b),
+		to(#da800b));
+}
+
+button.css3button a{
+	color:#fff;
+}
+
+button.css3button1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	padding: 10px 30px;
+	background: -moz-linear-gradient(
+		top,
+		#cccccc 0%,
+		#909090);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#cccccc),
+		to(#909090));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 0px solid #000000;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0),
+		inset 0px 0px 1px rgba(255,255,255,0.6);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0),
+		inset 0px 0px 1px rgba(255,255,255,0.6);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0),
+		inset 0px 0px 1px rgba(255,255,255,0.6);
+	text-shadow:
+		0px -1px 0px rgba(133,133,133,1),
+		0px 0px 0px rgba(255,255,255,0);
+}
+
+button.css3button1:hover {
+	background: -moz-linear-gradient(
+		top,
+		#909090 0%,
+		#909090);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#909090),
+		to(#909090));
+}
+
+
+button.css3button1 a{
+	color:#fff;
+}
+
+/* Content Containers */
+
+#getstarted { 
+	height: 579px;
+	margin: 0 auto;
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#getstarted img{
+	width: 100%;
+	min-width: 1415px;
+}
+
+#mobile {
+	height: 660px;
+    width: 100%;
+    position: relative;
+    overflow:hidden;
+/*
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+*/
+    /* z-index: -1; */
+}
+
+#dashboard {
+	height: 632px;
+    width: 100%; 
+    position: relative; 
+/*     box-shadow: 0 0 50px rgba(0,0,0,0.8); */
+}
+
+#share {
+	height: 552px;
+    width: 100%; 
+    position: relative; 
+}
+
+/* Articles */
+
+#getstarted article { 
+	height: 669px; 
+	position: absolute;
+	text-indent: 0px; 
+	top: 185px; 
+	width: 100%;
+	vertical-align: center;
+	text-align: center;
+	color:#fff;
+	}
+	
+#getstarted article strong {
+	text-shadow: 2px 2px #000;
+
+}
+	
+#mobile article{
+	height: 500px;
+	margin-top: 20px;
+	position: absolute; 
+	text-indent: 0px; 
+	top: 10px; 
+	width: 100%;
+	vertical-align: center;
+	text-align: center;
+	color:#989898;	
+}
+
+#dashboard article{
+	height: 100px;
+	margin-top: 20px;
+	position: absolute; 
+	text-indent: 0px; 
+	top: 10px; 
+	width: 100%;
+	vertical-align: center;
+	text-align: center;
+	color:#989898;	
+}
+
+#share article{
+	height: 100px;
+	margin-top: 20px;
+	position: absolute; 
+	text-indent: 0px; 
+	top: 10px; 
+	width: 100%;
+	vertical-align: center;
+	text-align: center;
+	color:#989898;	
+}
+
+.footer article{
+	height: 200px;
+	position: relative;
+	margin: 0 auto;
+	top: 120px;
+}
+
+article h1 {
+	font-size:54px;
+	font-weight: 100;
+	padding-bottom: 10px;
+	text-shadow: 2px 2px #000;
+}
+
+article h2 {
+	font-size: 44px;
+	font-weight: 100;
+	padding-bottom: 10px;
+	color: #451ea1;
+}
+
+article p {
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+
+article ul {
+	margin: 0 auto;
+}
+
+article li{
+	list-style: none;
+	display:inline;
+}
+
+.footer h2 {
+	position:relative;
+	top:0px;
+	color: #FFF;
+	text-shadow: 2px 2px #000;
+}
+
+.footer p {
+	color: #CCC;
+}
+
+/* Parallax Backgrounds */
+
+#overlay1 { 
+	background: url(../images/parallax/6397.jpg) 50% 0 no-repeat fixed;
+	background-repeat: no-repeat;
+	height: 800px;
+	margin: 0 auto;
+    width: 100%; 
+    position: relative; 
+/*
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+*/
+}
+
+#overlay2 { 
+	background: url(../images/parallax/6256.jpg) 50% 0 no-repeat fixed;
+	background-repeat: no-repeat;
+	height: 800px;
+	margin: 0 auto;
+    width: 100%; 
+    position: relative; 
+/*
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+*/
+}
+
+#overlay3{
+	background: url(../images/parallax/6332.jpg) 50% 0 no-repeat fixed;
+	height: 800px;
+	margin: 0 auto;
+    width: 100%;
+    position: relative;
+/*
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+*/
+}
+
+#overlay4{
+	background: url(../images/parallax/6410.jpg) 50% 0 no-repeat fixed;
+	height: 800px;
+	padding-top: 
+	margin: 0 auto;
+    width: 100%;
+    position: relative;
+/*
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+*/
+}
+
+#navbottom {
+	position: relative;
+	margin: 0 auto;
+	font-size:10px;
+	background-color:#FFF;
+	height: 110px;
+}
+
+#navbottom img {
+	position: relative;
+	display:block;
+	margin: 0 auto;
+	float:left;
+	padding-left: 230px;
+	padding-top: 30px;
+}
+
+#navbottom p {
+	position:relative;
+	display:block;
+	float:left;
+	padding-top: 48px;
+	padding-left: 20px;
+}
+
+#navbottom ul {
+	position:relative;
+	display:block;
+	width: 850px;
+	padding-left: 350px;
+	padding-top: 44px;
+}
+
+#navbottom li{
+	display: inline;
+	list-style: none;
+	padding-right:20px;
+	line-height: 20px;
+	color: black;
+}
+
+#navbottom twitter-share-button{
+	bottom: 10px;
+}
+
+/* Slideshow */
+
+
+#slides {
+	z-index:100;
+	width: 475px;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 20px;
+}
+
+#slides-dashboard{
+	margin: 0 auto;
+	position: relative;
+	width: 805px;
+}
+#slides .slides_container {
+	width:400px;
+	height:483px;
+	margin-left:130px;
+	overflow:hidden;
+	position:relative;
+}
+#slides-dashboard .slides_container{
+	width: 803px;
+	height: 500px;
+}
+
+ul.pagination{
+	display:none;
+}
+
+#slides .slides_container a {
+	width:570px;
+	height:270px;
+	display:block;
+}
+#slides-dashboard .slides_container a {
+	width: 803px;
+	height: 500px;
+	display: block;
+
+}
+.slides_container a img {
+	display:block;
+}
+
+/*
+	Next/prev buttons
+*/
+
+#slides .next,#slides .prev {
+	position:absolute;
+	top:200px;
+	left:-39px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
+
+#slides .next {
+	left:530px;
+}
+
+
+#slides-dashboard .next,#slides-dashboard .prev {
+	position:absolute;
+	top:200px;
+	left:-39px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
+
+#slides-dashboard .next {
+	right:-39px;
+	left: auto;
+}
+
+/* Social */
+
+.social {
+	position: relative;
+	display: block;
+	float:right;
+	margin-top: -20px;
+	margin-right: 150px;
+}
+
+/* Body Text */
+
+.body-text {
+	position: relative;
+	display:block;
+	text-align: left;
+	margin: 0 auto;
+	padding: 120px 230px;
+	padding-left:230px;
+	max-width: 900px;
+}
+
+.body-text h1 {
+	font-size: 24px;
+	text-shadow: none;
+}
+
+
+.body-text h2 {
+	font-size: 18px;
+}
+
+.body-text li {
+	font-size: 14px;
+}
+
+.body-text p {
+	font-size: 12px;
+	padding-top: 4px;
+}
+
+/* CONTACT */
+
+.contact {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	padding-top: 100px;
+	margin-left: 300px;
+}
+
+/* Login */
+
+.form{
+	margin: 0 auto;
+	margin-top: 325px;
+	display: inline-block;
+	width: 300px;
+	height: 400px;
+	margin-bottom: 300px;
+	background-color:#ffffff;
+	border-radius: 5px;
+
+}
+
+#login {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	margin-top: 80px;
+	border: 1px black;
+	width: 300px;
+	height: 590px;
+}
+
+#register {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	color: #000;
+	border: 1px black;
+	width: 280px;
+	height: 180px;
+}
+
+.subpage {
+	background: url(../images/parallax/6410.jpg);
+	background-position-y: -1px;
+	height: 1000px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-top: -150px;
+}
+
+.subpage h3{
+	font-size: 20px;
+	padding-bottom: 3px;
+}
+
+/* REGISTRATION FORM FIELDS */
+
+input{
+
+  border: 1px solid #ccc;
+   
+  /* Safari 5, Chrome support border-radius without vendor prefix.
+   * FF 3.0/3.5/3.6, Mobile Safari 4.0.4 require vendor prefix.
+   * No support in Safari 3/4, IE 6/7/8, Opera 10.0.
+   */
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  
+  /* using a bigger font for demo purposes so the box isn't too small */
+  font-size: 20px;
+  
+  /* with a big radius/font there needs to be padding left and right
+   * otherwise the text is too close to the radius.
+   * on a smaller radius/font it may not be necessary
+   */
+  padding: 4px 7px;
+  
+  /* only needed for webkit browsers which show a rectangular outline;
+   * others do not do outline when radius used.
+   * android browser still displays a big outline
+   */
+  outline: 0;
+
+  /* this is needed for iOS devices otherwise a shadow/line appears at the
+   * top of the input. depending on the ratio of radius to height it will
+   * go all the way across the full width of the input and look really messy.
+   * ensure the radius is no more than half the full height of the input, 
+   * and the following is set, and everything will render well in iOS.
+   */
+  -webkit-appearance: none;
+}
+
+input.rounded:focus {
+  
+  /* supported IE8+ and all other browsers tested.
+   * optional, but gives the input focues when selected.
+   * change to a color that suits your design.
+   */
+  border-color: #339933;
+}
+
+input[type="checkbox"]{
+	-webkit-appearance:checkbox;
+}
